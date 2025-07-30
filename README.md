@@ -6,6 +6,33 @@ Currently the GUI of Users Environment PATH Variable only permits upto 2048 char
 
 So this was created to save one from the hassle of opening windows registery to add new path again and again whenever a new entry is to be made.
 
+## Usage
+Run help command to see the full with examples
+```powershell
+.\main.exe --help
+```
+These are the commands available: 
+
+```powershell
+# Show everything (user + system paths)
+./main.exe show
+
+# Clean up invalid entries
+./main.exe clean
+
+# Find duplicates
+./main.exe duplicates
+
+# Find all Python-related paths
+./main.exe search python
+
+# Backup your PATH
+./main.exe export
+
+# Remove old entries
+./main.exe remove "C:\OldSoftware\bin"
+```
+
 ## Building the project -
 
 - Clone the project -
