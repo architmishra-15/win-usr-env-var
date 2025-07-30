@@ -10,7 +10,7 @@ So this was created to save one from the hassle of opening windows registery to 
 
 - Clone the project -
     ```bash
-    git clone https://architmishra-15/win-usr-env-var.git
+    git clone https://github.com/architmishra-15/win-usr-env-var.git
     ```
 - Compile it with `-luser32` flag -
     ```powershell
